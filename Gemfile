@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'bundler', '~> 1.3.5'
 gem 'rails', '~> 3.2.13'
-# gem 'unicorn' We don't need unicorn yet. Not for the demo at least.
+# gem 'unicorn'
 gem 'pg', '~> 0.15.1'
 gem 'jbuilder', '~> 1.4.1'
 gem 'rails-settings-cached', '~> 0.2.4'
