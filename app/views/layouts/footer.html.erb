@@ -1,0 +1,47 @@
+<div class="footer">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr class="footer-header">
+			<td width="20%"><strong>Personal</strong></td>
+			<td width="20%"><strong>Business</strong></td>
+			<td width="20%"><strong>Enterprise</strong></td>
+			<td width="20%"><strong>Customers</strong></td>
+			<td width="20%"><strong>Platform</strong></td>
+		</tr>
+		<tr>
+			<td width="20%"><%= link_to("Home", root_url) %></td>
+			<td width="20%"><%= link_to("About", "/about") %></td>
+			<td width="20%"><%= link_to("Services", "/professional-services") %></td>
+			<td width="20%"><%= link_to("Training", "/professional-services") %></td>
+			<td width="20%"><%= link_to("Products", "/products") %></td>
+		</tr>
+		<tr>
+			<td width="20%"><%= link_to("Dashboard", "/dashboard") %></td>
+			<td width="20%"><%= link_to("Contact Us", "/contact-us") %></td>
+			<td width="20%"><%= link_to("Consulting", "/consulting-and-transactional-services") %></td>
+			<td width="20%"><a href="javascript:void(0)">Forum</a></td>
+			<td width="20%"><a href="javascript:void(0)">Blog</a></td>
+		</tr>
+		<tr>
+			<td width="20%"></td>
+			<td width="20%"><%= link_to("Board of Directors", "/board-of-directors") %></td>
+			<td width="20%"><%= link_to("Support", "/contact-us") %></td>
+			<td width="20%"></td>
+			<td width="20%"><a href="javascript:void(0)">News</a></td>
+		</tr>
+		<tr>
+			<td width="20%"></td>
+			<td width="20%"><a href="javascript:void(0)">Bench</a></td>
+			<td width="20%"></td>
+			<td width="20%"></td>
+			<td width="20%"></td>
+		</tr>
+		<tr class="footer-logo">
+			<td colspan="5">
+				<center><%= link_to(image_tag("/images/template/logo-full.png", :class => "logo", :alt => "knuvu_logo", :height => "60"), root_url) %></center>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5">&copy; 2013 KnuVu</td>
+		</tr>
+	</table>
+</div>
