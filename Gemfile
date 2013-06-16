@@ -9,6 +9,7 @@ gem 'rails-settings-cached', '~> 0.2.4'
 gem 'thin', '~> 1.5.1'
 gem 'nilify_blanks', '~> 1.0.1'
 gem 'newrelic_rpm', '~>3.6.1.88'
+gem 'devise', '~>2.2.4'
 
 # Gems used only for assets and not required in production environments by default.
 group :assets do

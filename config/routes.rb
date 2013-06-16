@@ -1,5 +1,7 @@
 Knuvu::Application.routes.draw do
 
+  devise_for :users
+
 	# JSON Api Web Front
 	namespace :api, :constraints => {:format => 'json'} do
 		namespace :v1 do
@@ -8,6 +10,6 @@ Knuvu::Application.routes.draw do
   end
 
   # HTML Web Front
-	get '/' => 'default#index' # App HTML Index
+	root :to => "default#index" # App HTML Index
 
 end
