@@ -10,6 +10,12 @@ Knuvu::Application.routes.draw do
   end
 
   # HTML Web Front
-	root :to => "default#index" # App HTML Index
+	root :to => 'default#index' # App HTML Index
+	get '/about' => 'default#about'
+	get '/professional-services' => 'default#professional_services'
+	get '/products' => 'default#products'
+	get '/contact-us' => 'default#contact_us'
+	get '/consulting-and-transactional-services' => 'default#consulting_and_transactional_services'
+	get '/board-of-directors' => 'default#board_of_directors'
 
 end
