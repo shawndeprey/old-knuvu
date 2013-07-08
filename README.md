@@ -124,6 +124,10 @@ can simply destroy the VM and re-provision a new one.
     ...
     vagrant up
 
+If your database is throwing errors when starting your server, you may just need to restart the DB
+
+    sudo /etc/init.d/postgresql restart
+
 *Sometimes, you need to force the VM to be destroyed with the `-f` flag.*
 
 Once the VM finishes provisioning, you'll have a brand new environment
